@@ -2,7 +2,7 @@ package com.shf.algorithm.sort;
 
 public class Bubble {
     /**
-     * 对数据a中的元素进行排序
+     * 对数据a中的元素进行冒泡排序
      * @param a
      */
     public static void sort(Comparable[] a){
