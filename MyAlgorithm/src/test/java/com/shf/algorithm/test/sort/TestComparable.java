@@ -1,4 +1,4 @@
-package com.shf.algorithm.test;
+package com.shf.algorithm.test.sort;
 
 import com.shf.algorithm.sort.Student;
 import org.testng.annotations.Test;
