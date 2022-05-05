@@ -4,6 +4,10 @@ import org.w3c.dom.Node;
 
 import java.util.Iterator;
 
+/**
+ * 栈
+ * @param <T>
+ */
 public class Stack<T> implements Iterable<T> {
     //    记录首节点
     private Node head;

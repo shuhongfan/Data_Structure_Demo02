@@ -2,6 +2,10 @@ package com.shf.algorithm.linear;
 
 import java.util.Iterator;
 
+/**
+ * 顺序表
+ * @param <T>
+ */
 public class SequenceList<T> implements Iterable<T>{
 //    存储元素的数组
     private T[] eles;

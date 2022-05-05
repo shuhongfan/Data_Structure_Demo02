@@ -4,6 +4,10 @@ import org.w3c.dom.Node;
 
 import java.util.Iterator;
 
+/**
+ * 单链表
+ * @param <T>
+ */
 public class LinkList<T> implements Iterable<T>{
     //    记录头结点
     private Node head;

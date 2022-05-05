@@ -2,6 +2,10 @@ package com.shf.algorithm.linear;
 
 import java.util.Iterator;
 
+/**
+ * 双链表
+ * @param <T>
+ */
 public class TowWayLinkList<T> implements Iterable<T>{
     //    首节点
     private Node head;
