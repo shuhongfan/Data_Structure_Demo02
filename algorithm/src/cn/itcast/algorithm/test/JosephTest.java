@@ -39,7 +39,6 @@ public class JosephTest {
         Node<Integer> before = null;
         while(n!=n.next){
             //模拟报数
-
             count++;
             //判断当前报数是不是为3
             if (count==3){
