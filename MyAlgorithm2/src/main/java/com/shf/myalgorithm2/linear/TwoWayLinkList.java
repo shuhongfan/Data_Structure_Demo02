@@ -141,6 +141,25 @@ public class TwoWayLinkList<T> implements Iterable<T>{
         return curr.item;
     }
 
+    public void reverse() {
+        if (isEmpty()) {
+            return;
+        }
+        reverse(head.next);
+    }
+
+    private Node reverse(Node curr) {
+        if (curr.next == null) {
+            head.next = curr;
+            return curr;
+        }
+
+        Node pre = reverse(curr.next);
+        pre.next = curr;
+        curr.next = null;
+        return curr;
+    }
+
     public static void main(String[] args) {
         TwoWayLinkList<String> s1 = new TwoWayLinkList<>();
         s1.insert("姚明");
